@@ -13,7 +13,7 @@ const GenericComp=(props)=>{
         .catch((err)=>{
             console.log(err);
         })
-    },[])
+    },[props.category])
     console.log(value);
     // const [id,heading,image,discription]=value;
     ////

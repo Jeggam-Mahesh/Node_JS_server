@@ -5,7 +5,7 @@ import share from '../assets/share.svg'
 import User from '../assets/User.png' 
 import socialMediaIcon2 from '../assets/socialMediaIcon2.png'
 // import {Store} from "../DataStore";
-import { useContext ,useState} from "react";
+import {useState} from "react";
 import { useLocation } from "react-router-dom";
 // import { useEffect } from "react";
 const DynamicComp=()=>{
@@ -18,7 +18,7 @@ const DynamicComp=()=>{
    const data=useLocation().state.app_data;
   console.log("use location dynamic comp:",data)
    ///api data...
-   const [Api_data,setApi_data]=useState(data);
+   const [Api_data]=useState(data);
     console.log("apppppp",Api_data);
    ///
    
