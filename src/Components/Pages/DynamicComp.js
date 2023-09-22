@@ -17,7 +17,7 @@ const DynamicComp=()=>{
    const id_value=useLocation().state.index; 
    const data=useLocation().state.app_data;
   console.log("use location dynamic comp:",data)
-   ///api data...
+   ///api data... 
    const [Api_data]=useState(data);
     console.log("apppppp",Api_data);
    ///

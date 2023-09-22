@@ -214,14 +214,15 @@ padding-bottom: 105px;
     text-align: left;
    }
    .advertisement{
-    /* width: 400px;
-    height: 600px; */
     width:30vw;
-    height:90vh
-    /* border: 2px solid black; */
-    /* justify-content: center;
-    align-items: center;
-    display: flex; */
+    height:90vh;
+    position: sticky;
+    top: 5vh;
+    left:30vw
+   }
+   .home_advertisement{
+    width:30vw;
+    height:90vh;
    }
    .Adds{
     width:30vw;

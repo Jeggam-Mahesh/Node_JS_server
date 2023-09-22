@@ -54,7 +54,7 @@ const Home=()=>{
             <h1 className="topic_heading ">Latest Articles</h1>
             {value&&value.filter((item)=>(item.id)%8===0).map((item,index)=>{
                 return (
-                
+                 
                   
                      <div className="display_card" key={index}>
                      <div className="card_image"> 
@@ -72,13 +72,13 @@ const Home=()=>{
             </div>
             <div className="post_container">
                     <h1 className="topic_heading">Top Posts</h1>
-                    <div className="advertisement">
+                    <div className=" home_advertisement">
                         
                         <img className='Adds' src='https://i.pinimg.com/originals/27/94/6a/27946a99657cddf0cbde79a7e4e6f51f.gif' alt="not found" width='400px' height='600px'/>
                         </div>
                     {
                        value&&value.filter((item)=>{
-                            return (item.id)%14===0
+                            return (item.id)%11===0
                         }).map((item,index)=>{
                             return(
                                 <div className=" post_disp_crd" key={index}>
