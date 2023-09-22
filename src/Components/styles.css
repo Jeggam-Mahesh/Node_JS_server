@@ -403,7 +403,7 @@ padding-bottom: 105px;
       margin: 0px;
       /* margin-right: 1%; */
       
-        /* width: 100vw; */
+        width: 102vw;
   flex-direction: column;
   justify-content: center;
    align-items: center;
@@ -482,9 +482,9 @@ padding-bottom: 105px;
        margin-left: 10px;
      
     }
-    .hm_last{
-       /* background-color: #86a5e3; */
-    }
+    /* .hm_last{
+       background-color: #86a5e3;
+    } */
     .box{
         width: 95vw;
         height: 300px;
